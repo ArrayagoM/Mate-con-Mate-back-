@@ -18,27 +18,27 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 
 ### Pasos para Contribuir
 
-1. **Clona el Repositorio:**
+#### Clona el Repositorio:
    ```bash
    git clone https://github.com/tu-usuario/mate-con-mate-backend.git
    cd mate-con-mate-backend
-
-2.**Instala las Dependecias:**
+```
+##### Instala las Dependecias:
 ```bash
 npm install
 ```
-3. **Configuración del Entorno:**
+###### Configuración del Entorno:
    Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias. Puedes utilizar el archivo .env como referencia.
 
-4.**Inicia el Servidor:**
+####### Inicia el Servidor:
 ```bash
 npm start
 ```
-5.**Contribuye:**
--Realiza tus cambios y mejoras.
--Asegúrate de seguir las prácticas de codificación y los estándares del proyecto.
+######## Contribuye:
+- **Realiza tus cambios y mejoras.
+- Asegúrate de seguir las prácticas de codificación y los estándares del proyecto.
 
-6.**Envía tu Pull Request:**
+######### Envía tu Pull Request:
 -Abre un Pull Request describiendo tus cambios y mejoras.
 -¡Espera comentarios y colabora para mejorar el proyecto!
 
