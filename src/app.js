@@ -2,8 +2,10 @@ const express = require('express');
 const rateLimit = require('express-rate-limit');
 const cors = require('cors');
 const morgan = require('morgan');
+const { limitPayloadSize } = require('./Middleware/limitPayloadSize');
 const route = require('./routes/index');
-
+const { connect } = require('./db');
+const { URL_LOCAL, POLICY, DEV } = process.env;
 const limit = rateLimit({
   windowMS: 60 * 60 * 1000,
   max: 100,
@@ -11,19 +13,11 @@ const limit = rateLimit({
   legacyHeaders: false,
 });
 
-const limitPayloadSize = (req, res, next) => {
-  const MAX_PAYLOAD_SIZE = 1024 * 1024; // 1MB
-  if (req.headers['content-length'] && parseInt(req.headers['content-length']) > MAX_PAYLOAD_SIZE) {
-    return res.status(413).json({ error: 'Payload size exceeds the limit' });
-  }
-  next();
-};
-
 const server = express();
-
+connect();
 server.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: URL_LOCAL,
     methods: ['GET', 'POST', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   })
@@ -40,10 +34,7 @@ server.use((req, res, next) => {
 });
 
 server.use((req, res, next) => {
-  res.setHeader(
-    'Content-Security-Policy',
-    "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'"
-  );
+  res.setHeader(POLICY, DEV);
   next();
 });
 server.use('/', route);

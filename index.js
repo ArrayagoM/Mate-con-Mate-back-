@@ -1,3 +1,4 @@
+require('dotenv').config();
 const server = require('./src/app');
 
 const keepAlive = server.listen(3000, () => {
