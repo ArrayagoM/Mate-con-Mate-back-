@@ -18,19 +18,19 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 
 ### Pasos para Contribuir
 
-1.** Clona el Repositorio: **
+1.**Clona el Repositorio:**
    ```bash
    git clone https://github.com/tu-usuario/mate-con-mate-backend.git
    cd mate-con-mate-backend
 ```
-2.** Instala las Dependecias:**
+2.**Instala las Dependecias:**
 ```bash
 npm install
 ```
-3.** Configuración del Entorno:**
+3.**Configuración del Entorno:**
    Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias. Puedes utilizar el archivo .env como referencia.
 
-4.** Inicia el Servidor: **
+4.**Inicia el Servidor:**
 ```bash
 npm start
 ```
