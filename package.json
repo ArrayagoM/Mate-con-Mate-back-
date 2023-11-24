@@ -1,0 +1,27 @@
+{
+  "name": "mate-con-mate-back-",
+  "version": "1.0.0",
+  "description": "¡Bienvenido al repositorio del backend personalizado para el conocido creador de contenido en TikTok, Mate con Mate! Este proyecto tiene como objetivo proporcionar una plataforma optimizada que permita a Mate con Mate publicar contenido de manera libre y sin restricciones.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Juan Martin Arrayago",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "mongoose": "^8.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
