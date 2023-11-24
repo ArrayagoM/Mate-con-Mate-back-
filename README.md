@@ -28,7 +28,8 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 npm install
 ```
 3.**Configuración del Entorno:**
-   Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias. Puedes utilizar el archivo .env como referencia.
+  - Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias.
+  - Puedes utilizar el archivo .env como referencia.
 
 4.**Inicia el Servidor:**
 ```bash
