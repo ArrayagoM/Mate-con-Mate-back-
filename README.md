@@ -35,7 +35,7 @@ npm install
 npm start
 ```
 5.**Contribuye:**
-- **Realiza tus cambios y mejoras.
+- Realiza tus cambios y mejoras.
 - Asegúrate de seguir las prácticas de codificación y los estándares del proyecto.
 
 6.**Envía tu Pull Request:**
