@@ -22,3 +22,24 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
    ```bash
    git clone https://github.com/tu-usuario/mate-con-mate-backend.git
    cd mate-con-mate-backend
+
+2.**Instala las Dependecias:**
+```bash
+npm install
+```
+3. **Configuración del Entorno:**
+   Crea un archivo .env en la raíz del proyecto y configura las variables de entorno necesarias. Puedes utilizar el archivo .env como referencia.
+
+4.**Inicia el Servidor:**
+```bash
+npm start
+```
+5.**Contribuye:**
+-Realiza tus cambios y mejoras.
+-Asegúrate de seguir las prácticas de codificación y los estándares del proyecto.
+
+6.**Envía tu Pull Request:**
+-Abre un Pull Request describiendo tus cambios y mejoras.
+-¡Espera comentarios y colabora para mejorar el proyecto!
+
+**¡Listo! Ahora eres parte del equipo. Gracias por contribuir a hacer de la experiencia de Mate con Mate en TikTok algo aún mejor. ¡Diviértete codificando!**
