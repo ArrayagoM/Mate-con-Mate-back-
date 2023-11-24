@@ -40,7 +40,7 @@ npm start
 - Asegúrate de seguir las prácticas de codificación y los estándares del proyecto.
 
 6.**Envía tu Pull Request:**
--Abre un Pull Request describiendo tus cambios y mejoras.
--¡Espera comentarios y colabora para mejorar el proyecto!
+- Abre un Pull Request describiendo tus cambios y mejoras.
+- ¡Espera comentarios y colabora para mejorar el proyecto!
 
 **¡Listo! Ahora eres parte del equipo. Gracias por contribuir a hacer de la experiencia de Mate con Mate en TikTok algo aún mejor. ¡Diviértete codificando!**
